@@ -1,4 +1,6 @@
 html {
+  color: #fff;
+  font-family: "Merriweather", serif;;
   box-sizing: border-box;
 }
 
@@ -7,11 +9,12 @@ html {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
   list-style: none;
-
 }
 
 .head {
   background-color: #d05c2e;
+  font-weight: 700;
 }

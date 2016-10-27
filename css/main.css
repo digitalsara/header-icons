@@ -8,15 +8,34 @@ html {
   box-sizing: inherit;
 }
 
+body, h1 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
 a {
   color: #fff;
   text-decoration: none;
   list-style: none;
 }
 
-.head {
+header {
   background-color: #d05c2e;
   font-weight: 700;
+}
+
+.col li {
+  background-color: #d05c2e;
+  border: 1px solid #a63f38;
+  overflow: hidden;
+  font-size: 1.125rem;
+}
+
+.col > li {
+  float: left;
+  width: 50%;
 }
 
 .img1 {
@@ -29,10 +48,10 @@ a {
   width: 40px;
 }
 
-nav li {
+/*nav li {
   border: 1px solid #a63f38;
   float: left;
   width: 25%;
   padding: .4rem 0;
   text-align: center;
-}
+}*/

@@ -21,19 +21,26 @@ a {
   list-style: none;
 }
 
-header {
+.head {
   background-color: #d05c2e;
   font-weight: 700;
+  border: 1px solid #a63f38;
 }
 
 .col li {
   background-color: #d05c2e;
   border: 1px solid #a63f38;
-  overflow: hidden;
   font-size: 1.125rem;
 }
 
-.col > li {
+ul {
+  padding: .5em 0 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
   float: left;
   width: 50%;
 }

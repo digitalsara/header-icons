@@ -16,6 +16,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
 }
+
 a {
   color: #fff;
   text-decoration: none;
@@ -36,6 +37,10 @@ a {
   text-align: center;
   padding: .3rem;
   list-style: none;
+}
+
+.col li:hover {
+  background-color: #a63f38;
 }
 
 ul {

@@ -18,3 +18,21 @@ a {
   background-color: #d05c2e;
   font-weight: 700;
 }
+
+.img1 {
+  float: left;
+  width: 40px;
+}
+
+.img2 {
+  float: right;
+  width: 40px;
+}
+
+nav li {
+  border: 1px solid #a63f38;
+  float: left;
+  width: 25%;
+  padding: .4rem 0;
+  text-align: center;
+}

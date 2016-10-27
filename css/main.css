@@ -9,4 +9,9 @@ html {
 a {
   text-decoration: none;
   list-style: none;
+
+}
+
+.head {
+  background-color: #d05c2e;
 }

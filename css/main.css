@@ -39,7 +39,7 @@ a {
   list-style: none;
 }
 
-nav li:hover {
+li:hover, a:hover {
   background-color: #a63f38;
 }
 

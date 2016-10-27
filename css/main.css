@@ -1,6 +1,6 @@
 html {
   color: #fff;
-  font-family: "Merriweather", serif;;
+  font-family: Merriweather, serif;
   box-sizing: border-box;
 }
 
@@ -19,12 +19,11 @@ h1 {
 a {
   color: #fff;
   text-decoration: none;
-  list-style: none;
 }
 
 .head {
   background-color: #d05c2e;
-  font-weight: 700;
+  font-weight: bold;
   padding: .7rem;
 }
 
@@ -32,19 +31,17 @@ a {
   background-color: #d05c2e;
   border: 1px solid #a63f38;
   font-size: 1.125rem;
+  float: left;
+  width: 33.32%;
+  text-align: center;
+  padding: .3rem;
+  list-style: none;
 }
 
 ul {
   margin: 0;
   overflow: hidden;
   padding: 0;
-}
-
-li {
-  float: left;
-  width: 33.3%;
-  text-align: center;
-  padding: .3rem;
 }
 
 .img1 {
@@ -56,11 +53,3 @@ li {
   float: right;
   width: 40px;
 }
-
-/*nav li {
-  border: 1px solid #a63f38;
-  float: left;
-  width: 25%;
-  padding: .4rem 0;
-  text-align: center;
-}*/

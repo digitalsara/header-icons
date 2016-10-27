@@ -25,7 +25,7 @@ a {
 .head {
   background-color: #d05c2e;
   font-weight: 700;
-  border: 1px solid #a63f38;
+  padding: .7rem;
 }
 
 .col li {
@@ -38,12 +38,14 @@ ul {
   margin: 0;
   overflow: hidden;
   padding: 0;
+  width: 100%;
 }
 
 li {
   float: left;
   text-align: center;
-  width: 50%;
+  padding: .3rem;
+  width: 25%;
 }
 
 .img1 {

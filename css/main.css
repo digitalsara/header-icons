@@ -32,7 +32,6 @@ a {
   background-color: #d05c2e;
   border: 1px solid #a63f38;
   font-size: 1.125rem;
-  width: 33.3%;
 }
 
 ul {
@@ -43,6 +42,7 @@ ul {
 
 li {
   float: left;
+  width: 33.3%;
   text-align: center;
   padding: .3rem;
 }
